@@ -1,0 +1,83 @@
+body {
+    background-color: #c6c6c6;
+    font-family: "Arial";
+}
+
+main {
+    max-width: 100vw;
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section {
+    flex: 1;
+    margin-bottom: 20vh;
+}
+
+button {
+    position: absolute;
+    background-color: #727272;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    padding: 20px;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, calc(50% + 125px));
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.25s all;
+    outline: none;
+}
+
+button:hover {
+    background-color: #F07818;
+}
+
+ol {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    max-width: 800px;
+    padding: 0;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 20px;
+}
+
+ol li {
+    height: 250px;
+    width: 250px;
+    flex: 0 0 auto;
+}
+
+div h2 {
+    color: #727272;
+    font-size: 28px;
+    text-align: center;
+}
+
+.circle {
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px #727272;
+    position: relative;
+}
+
+.on {
+    background-image: url(../img/ok.png);
+    background-size: cover;
+}
+
+.off {
+    background-image: url(../img/cancel.png);
+    background-size: cover;
+}
