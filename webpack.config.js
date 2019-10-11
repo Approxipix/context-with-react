@@ -2,6 +2,7 @@ const path = require('path');
 
 module.exports = {
     entry: "./src/index.js",
+    mode: 'development',
     output: {
         path:__dirname+ '/dist/',
         filename: "bundle.js",
@@ -11,8 +12,6 @@ module.exports = {
         inline: false,
         contentBase: "./dist",
     },
-    mode: 'development',
-    devServer: { inline: true },
     module: {
         rules: [
             { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" }
