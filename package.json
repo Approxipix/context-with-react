@@ -8,7 +8,7 @@
     "server": "webpack-dev-server --content-base ./dist --inline --hot"
   },
   "author": "Yaroslav Afanasiev <yaroslav.afanassiev@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "prop-types": "^15.6.1",
     "react": "^16.4.0",
